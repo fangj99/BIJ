@@ -1,0 +1,378 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Chinese (P.R.C.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)\r\n"
+    "#ifdef _WIN32\r\n"
+    "LANGUAGE 9, 1\r\n"
+    "#pragma code_page(1252)\r\n"
+    "#endif //_WIN32\r\n"
+    "#include ""res\\BIJ.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""afxres.rc""         // Standard components\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+#endif    // Chinese (P.R.C.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON    DISCARDABLE     "DE51.ICO"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOG DISCARDABLE  0, 0, 235, 111
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "BIJ: BALCKJACK DATA RECORDING SYSTEM"
+FONT 8, "Verdana"
+BEGIN
+    ICON            IDR_MAINFRAME,IDC_STATIC,11,17,20,20
+    LTEXT           "BIJ Version v1.0.3",IDC_STATIC,40,10,119,10,SS_NOPREFIX
+    LTEXT           "Copyright (C) 2008",IDC_STATIC,40,30,119,10
+    DEFPUSHBUTTON   "OK",IDOK,95,85,50,14,WS_GROUP
+    LTEXT           "WWW.21SYS.ORG",IDC_STATIC,40,50,119,10
+    LTEXT           "EMAIL: SUPPORT@21SYS.ORG",IDC_STATIC,40,62,119,10
+END
+
+IDD_BIJ_DIALOG DIALOGEX 0, 0, 317, 383
+STYLE WS_MINIMIZEBOX | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU | 
+    WS_THICKFRAME
+EXSTYLE WS_EX_APPWINDOW
+CAPTION "BIJ: BALCKJACK DATA RECORDING SYSTEM"
+FONT 7, "Verdana"
+BEGIN
+    CONTROL         "List1",IDC_LIST_CTRL,"SysListView32",LVS_REPORT | 
+                    LVS_SHOWSELALWAYS | LVS_OWNERDRAWFIXED | WS_BORDER | 
+                    WS_TABSTOP,15,25,215,324
+    GROUPBOX        "KILL CASINO",IDC_STATIC1,237,22,74,63
+    LTEXT           "LOST HANDS",IDC_STATIC2,241,32,60,9
+    LTEXT           "CASINO NAME",IDC_STATIC3,241,56,62,10
+    CONTROL         "Check1",IDC_CHECK1,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,274,41,10,12
+    LTEXT           "PUSH",IDC_STATIC4,286,43,19,9
+    GROUPBOX        "GAME RECORDER",IDC_STATIC5,237,88,74,282
+    LTEXT           "DEALER CARDS",IDC_STATIC6,241,100,61,9
+    LTEXT           "PLAYER CARDS",IDC_STATIC7,241,125,61,9
+    PUSHBUTTON      "A",IDC_BUTTON1,241,152,14,17
+    PUSHBUTTON      "K",IDC_BUTTON13,258,152,14,17
+    PUSHBUTTON      "Q",IDC_BUTTON12,275,152,14,17
+    PUSHBUTTON      "J",IDC_BUTTON11,292,152,14,17
+    PUSHBUTTON      "T",IDC_BUTTON10,241,174,14,17
+    PUSHBUTTON      "9",IDC_BUTTON9,258,174,14,17
+    PUSHBUTTON      "8",IDC_BUTTON8,275,174,14,17
+    PUSHBUTTON      "7",IDC_BUTTON7,292,174,14,17
+    PUSHBUTTON      "6",IDC_BUTTON6,241,195,14,17
+    PUSHBUTTON      "5",IDC_BUTTON5,258,195,14,17
+    PUSHBUTTON      "4",IDC_BUTTON4,275,195,14,17
+    PUSHBUTTON      "3",IDC_BUTTON3,292,195,14,17
+    PUSHBUTTON      "2",IDC_BUTTON2,241,217,14,17
+    PUSHBUTTON      "<-",IDC_BUTTON14,258,217,14,17
+    PUSHBUTTON      "DEALER BJ",IDC_DEALERBJ,239,257,70,23
+    PUSHBUTTON      "DEALER WINS",IDC_DEALERWINS,239,235,70,23
+    PUSHBUTTON      "PLAYER BJ",IDC_PLAYERBJ,239,301,70,23
+    PUSHBUTTON      "PLAYER WINS",IDC_PLAYERWINS,239,279,70,23
+    PUSHBUTTON      "CANCEL LAST",IDC_CANCELREC,239,345,70,23
+    PUSHBUTTON      "PUSH",IDC_PUSH,239,323,70,23
+    COMBOBOX        IDC_COMBO1,241,65,66,83,CBS_DROPDOWN | CBS_SORT | 
+                    CBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_TABSTOP
+    EDITTEXT        IDC_EDIT2,241,110,66,12,ES_UPPERCASE | ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT3,241,135,66,12,ES_UPPERCASE | ES_AUTOHSCROLL
+    PUSHBUTTON      "UPDATE",IDC_BUTTON15,273,217,34,17
+    EDITTEXT        IDC_EDIT1,241,42,24,11,ES_CENTER | ES_AUTOHSCROLL | 
+                    ES_NUMBER
+END
+
+IDD_SETTINGS DIALOG DISCARDABLE  0, 0, 173, 111
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "BIJ SETTINGS"
+FONT 10, "Verdana"
+BEGIN
+    GROUPBOX        "SETTINGS FOR KILLING CASINO SOFTWARE",IDC_STATIC1,10,13,
+                    154,69
+    LTEXT           "NUMBER OF CONTINUOUS LOST HANDS",IDC_STATIC2,21,27,131,
+                    9
+    LTEXT           "CASINO NAME",IDC_STATIC3,21,52,47,9
+    CONTROL         "Check1",IDC_CHECK1,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,62,37,8,11
+    LTEXT           "PUSH AS LOST HAND",IDC_STATIC4,72,38,73,9
+    COMBOBOX        IDC_COMBO1,21,64,130,83,CBS_DROPDOWN | CBS_SORT | 
+                    CBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_TABSTOP
+    EDITTEXT        IDC_EDIT1,21,37,31,12,ES_CENTER | ES_AUTOHSCROLL | 
+                    ES_NUMBER
+    DEFPUSHBUTTON   "OK",IDOK,29,87,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,85,87,50,14
+END
+
+IDD_REGISTER DIALOG DISCARDABLE  0, 0, 219, 107
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "BIJ: BALCKJACK DATA RECORDING SYSTEM"
+FONT 10, "Verdana"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,96,82,50,14
+    PUSHBUTTON      "CANCEL",IDCANCEL,150,82,50,14
+    LTEXT           "PLEASE ENTER YOUR REGISTRATION INFO IN THE BELOW OR  YOU CAN PURCHASE REGISTRATION CODE AT  WWW.21SYS.ORG ",
+                    IDC_STATIC,14,13,191,23
+    EDITTEXT        IDC_EDIT1,96,45,104,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT2,96,59,104,12,ES_AUTOHSCROLL
+    LTEXT           "USER NAME:",IDC_STATIC,14,45,59,10
+    LTEXT           "REGISTRATION CODE:",IDC_STATIC,14,60,77,10
+    DEFPUSHBUTTON   "PURCHASE REG CODE",IDREG,14,82,76,14,NOT WS_VISIBLE
+END
+
+
+#ifndef _MAC
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904b0"
+        BEGIN
+            VALUE "Comments", "\0"
+            VALUE "CompanyName", "\0"
+            VALUE "FileDescription", "BIJ MFC Application\0"
+            VALUE "FileVersion", "1, 0, 0, 1\0"
+            VALUE "InternalName", "BIJ\0"
+            VALUE "LegalCopyright", "Copyright (C) 2005\0"
+            VALUE "LegalTrademarks", "\0"
+            VALUE "OriginalFilename", "BIJ.EXE\0"
+            VALUE "PrivateBuild", "\0"
+            VALUE "ProductName", "BIJ Application\0"
+            VALUE "ProductVersion", "1, 0, 0, 1\0"
+            VALUE "SpecialBuild", "\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 1200
+    END
+END
+
+#endif    // !_MAC
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 228
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 104
+    END
+
+    IDD_BIJ_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 310
+        TOPMARGIN, 4
+        BOTTOMMARGIN, 376
+    END
+
+    IDD_SETTINGS, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 166
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 104
+    END
+
+    IDD_REGISTER, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 212
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 100
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_MENUBJ MENU DISCARDABLE 
+BEGIN
+    POPUP "&File"
+    BEGIN
+        MENUITEM "&New",                        ID_MENU_NEW
+        MENUITEM "&Open...",                    ID_MENU_OPEN
+        MENUITEM SEPARATOR
+        MENUITEM "&Save",                       ID_MENU_SAVE
+        MENUITEM "S&ave As...",                 ID_MENU_SAVEAS
+        MENUITEM SEPARATOR
+        MENUITEM "E&xit",                       ID_MENU_EXIT
+    END
+    POPUP "&Help"
+    BEGIN
+        MENUITEM "&Contents",                   ID_MENU_HELP, INACTIVE
+        MENUITEM SEPARATOR
+        MENUITEM "&Register...",                ID_MENU_REG
+        MENUITEM "&About",                      ID_MENU_ABOUT
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Toolbar
+//
+
+IDR_TOOLBARBJ TOOLBAR DISCARDABLE  21, 20
+BEGIN
+    BUTTON      ID_BUTTON32781
+    BUTTON      ID_BUTTON32779
+    BUTTON      ID_BUTTON32780
+    BUTTON      ID_BUTTON32782
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDR_TOOLBARBJ           BITMAP  DISCARDABLE     "bijtoolb.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_ABOUTBOX            "&About BIJ..."
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_INDICATOR_NISH       " "
+    ID_INDICATOR_TIME       " "
+    ID_INDICATOR_TOTALHANDS " "
+    ID_INDICATOR_PLAYERWINS " "
+    ID_INDICATOR_PLAYERRBJ  " "
+    ID_INDICATOR_PUSHHANDS  " "
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDB_OPENREC             "OPEN RECORD"
+    IDB_SAVE                "SAVE RECORD"
+    IDB_NEWREC              "NEW RECORD"
+    IDB_HELP                "HELP"
+END
+
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE 9, 1
+#pragma code_page(1252)
+#endif //_WIN32
+#include "res\BIJ.rc2"  // non-Microsoft Visual C++ edited resources
+#include "afxres.rc"         // Standard components
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

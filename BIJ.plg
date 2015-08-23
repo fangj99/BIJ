@@ -1,0 +1,45 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: BIJ - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Temp\RSPC0C.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /FR"Debug/" /Fp"Debug/BIJ.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\Work\BIJ\BIJ\BIJ.cpp"
+]
+Creating command line "cl.exe @C:\Temp\RSPC0C.tmp" 
+Creating temporary file "C:\Temp\RSPC0D.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:yes /pdb:"Debug/BIJ.pdb" /debug /machine:I386 /out:"Debug/BIJ.exe" /pdbtype:sept 
+.\Debug\BIJ.obj
+.\Debug\BIJDlg.obj
+.\Debug\BIJSettings.obj
+.\Debug\color.obj
+.\Debug\ColorBox.obj
+.\Debug\ColorListCtrl.obj
+.\Debug\DataFile.obj
+.\Debug\Reg.obj
+.\Debug\StdAfx.obj
+.\Debug\StringEdit.obj
+.\Debug\BIJ.res
+]
+Creating command line "link.exe @C:\Temp\RSPC0D.tmp"
+<h3>Output Window</h3>
+Compiling...
+BIJ.cpp
+Linking...
+Creating command line "bscmake.exe /nologo /o"Debug/BIJ.bsc"  .\Debug\StdAfx.sbr .\Debug\BIJ.sbr .\Debug\BIJDlg.sbr .\Debug\BIJSettings.sbr .\Debug\color.sbr .\Debug\ColorBox.sbr .\Debug\ColorListCtrl.sbr .\Debug\DataFile.sbr .\Debug\Reg.sbr .\Debug\StringEdit.sbr"
+Creating browse info file...
+<h3>Output Window</h3>
+
+
+
+<h3>Results</h3>
+BIJ.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

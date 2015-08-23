@@ -1,0 +1,36 @@
+ 
+// Commands (ID_* and IDM_*) 
+HIDM_ABOUTBOX                           0x10010
+HID_INDICATOR_NISH                      0x10321
+HID_INDICATOR_TIME                      0x10322
+HID_INDICATOR_TOTALHANDS                0x10323
+HID_INDICATOR_PLAYERWINS                0x10324
+HID_INDICATOR_PLAYERRBJ                 0x10325
+HID_INDICATOR_PUSHHANDS                 0x10326
+HID_MENU_EXIT                           0x18003
+HID_MENU_SAVEAS                         0x18004
+HID_MENU_SAVE                           0x18005
+HID_MENU_OPEN                           0x18006
+HID_MENU_NEW                            0x18007
+HID_MENU_ABOUT                          0x18008
+HID_MENU_HELP                           0x18009
+HID_BUTTON32779                         0x1800B
+HID_BUTTON32780                         0x1800C
+HID_BUTTON32781                         0x1800D
+HID_BUTTON32782                         0x1800E
+HID_MENU_REG                            0x1800F
+ 
+// Prompts (IDP_*) 
+ 
+// Resources (IDR_*) 
+HIDR_MAINFRAME                          0x20080
+HIDR_MENUBJ                             0x20082
+HIDR_TOOLBARBJ                          0x20087
+ 
+// Dialogs (IDD_*) 
+HIDD_ABOUTBOX                           0x20064
+HIDD_BIJ_DIALOG                         0x20066
+HIDD_SETTINGS                           0x2008B
+HIDD_REGISTER                           0x2008D
+ 
+// Frame Controls (IDW_*) 
